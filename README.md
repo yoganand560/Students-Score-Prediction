@@ -1,3 +1,16 @@
+
+# Students-Score-Prediction
+This Python script performs a Multiple Linear Regression analysis to predict students' exam scores based on three key factors: hours studied, sleep hours, and attendance percentage. It then evaluates the performance of this predictive model using standard error metrics.
+
+
+
+
+
+
+
+
+
+
 #this is the dataset
 
 
@@ -210,10 +223,6 @@ S200	10.2	6.3	97.4	68	37.8<img width="464" height="4066" alt="image" src="https:
 
 
 
-
-
-# Students-Score-Prediction
-This Python script performs a Multiple Linear Regression analysis to predict students' exam scores based on three key factors: hours studied, sleep hours, and attendance percentage. It then evaluates the performance of this predictive model using standard error metrics.
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error
